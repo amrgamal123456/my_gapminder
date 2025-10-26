@@ -73,4 +73,5 @@ with col9:
                             x="hdi_index",title=title6)
     st.plotly_chart(hist_hdi)
     
+
     
