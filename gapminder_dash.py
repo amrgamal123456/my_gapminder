@@ -1,6 +1,6 @@
 import pandas as pd
 import streamlit as st 
-import plotly_express as px 
+import plotly.express as px 
 
 st.set_page_config(layout="wide")
 
@@ -73,4 +73,5 @@ with col9:
                             x="hdi_index",title=title6)
     st.plotly_chart(hist_hdi)
     
+
     
